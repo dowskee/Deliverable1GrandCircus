@@ -52,14 +52,6 @@ namespace MathChallenge
 
                 }
 
-                else if ((firstTotalPlace != secondTotalPlace) && (secondTotalPlace != thirdTotalPlace) && (firstTotalPlace != thirdTotalPlace))
-                {
-                Console.WriteLine("False. Maybe next time!");
-                return false;
-
-                }
-
-
                 else
                 {
                 Console.WriteLine("That is an incorrect amount of integers. Please run again.");
