@@ -1,6 +1,7 @@
+using System;
 using System.Linq;
 
-namespace MathChallenge
+namespace DeliverableOne
 {
     class MainClass
     {
@@ -37,7 +38,7 @@ namespace MathChallenge
 
                 string lengthOfNum1 = userEnteredNum1.ToString();
                 string lengthOfNum2 = userEnteredNum2.ToString();
-            /*System.Index out of range exception. Index outside bounds of array for else (may need to change to else if) statement. Equation is needed in array for variables of numbers entered outside of 3 digits.*/
+
                 int firstTotalPlace = Convert.ToInt32(lengthOfNum1[0] + Convert.ToInt32(lengthOfNum2[0]));
                 int secondTotalPlace = Convert.ToInt32(lengthOfNum1[1] + Convert.ToInt32(lengthOfNum2[1]));
                 int thirdTotalPlace = Convert.ToInt32(lengthOfNum1[2] + Convert.ToInt32(lengthOfNum2[2]));
@@ -61,7 +62,7 @@ namespace MathChallenge
 
                 else
                 {
-                Console.WriteLine("That is an incorrect amount of integers. Please run again.");
+                Console.WriteLine("False. Maybe next time!");
                 return false;
 
                 }
